@@ -9,12 +9,12 @@ import com.mycompany.zad2.controller;
 @RequestMapping("/api/hello")
 public class controller { 
     @RequestMapping(value="{person}",method= RequestMethod.GET)
-    public @ResponseBody String controller(@PathVariable String person) {
+    public @ResponseBody model controller(@PathVariable String person) {
         
         model m = new model();
         m.setPerson(person);
         
-        return m.getPerson();
+        return m;
         
     }
 }
