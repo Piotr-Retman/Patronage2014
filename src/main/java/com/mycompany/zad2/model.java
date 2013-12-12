@@ -4,7 +4,7 @@ public class model {
     String person;
 
     public String getPerson() {
-        return "Witaj,"+person;
+        return person;
     }
 
     public void setPerson(String person) {
