@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("/api/hello")
 public class JSONController {
     @RequestMapping(value="{person}",method = RequestMethod.GET,produces = "application/json")
-    public @ResponseBody Model jsoncontrol(@RequestParam(value = "person") String person,Model model) {
+    public @ResponseBody Model jsoncontrol(@RequestParam(value = "person") String person) {
+        Model m = new Model();
+        m.setPerson(person);
         
-        model.setPerson(person);
-        
-        return model;
+        return m;
         
     }
 }
