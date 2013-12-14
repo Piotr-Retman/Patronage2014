@@ -13,9 +13,9 @@
         http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd">
  
      <!-- Spring will search in the bellow paths controller an services annotations-->    
-    <context:component-scan base-package="com.mycompany.zad2" /> 
+    <context:component-scan base-package="com.mycompany.controller" /> 
      
     <mvc:annotation-driven />
- 
+   
     <!-- More code goes here -->
  </beans>

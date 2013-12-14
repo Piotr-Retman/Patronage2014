@@ -19,5 +19,5 @@
     p:username="${jdbc.username}"
     p:password="${jdbc.password}" /-->
 
-    <!-- ADD PERSISTENCE SUPPORT HERE (jpa, hibernate, etc) -->
+    <!-- ADD PERSISTENCE SUPPORT HERE (jpa, hibernate, etc) -->   
 </beans>
