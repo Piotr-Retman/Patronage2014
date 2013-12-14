@@ -4,13 +4,13 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 
 public class Model {
     
-    private String person;
+    private String message;
     @ModelAttribute
-    public void setPerson(String person) {
-        this.person = person;
+    public void setMessage(String message) {
+        this.message = message;
     }
 
-    public String getPerson() {
-        return person;
+    public String getMessage() {
+        return message;
     }
 }
