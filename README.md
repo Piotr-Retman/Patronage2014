@@ -4,6 +4,7 @@ Patronage2014
 Musimy mieć:
 
 1)Skonfigurowanego i zainstalowanego mavena 
+
 2)Skonfigurowanego i zainstalowanego Tomcata (jezeli nie mamy to najszybsza instalacja przebiega dzięki programowi => XAMPP 1.8.1
 
 Czynności:
@@ -22,4 +23,8 @@ Czynności:
 
 http://localhost:8080/api/hello?person=Willson wówczas naszym oczom powinien się ukazać JSON o wyglądzie : 
 
-{"message":"Hello,Willson"} :) i gotowe.
+{"message":"Hello,Willson"}
+
+
+
+:) i gotowe.
