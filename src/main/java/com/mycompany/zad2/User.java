@@ -1,22 +1,20 @@
 package com.mycompany.zad2;
-import java.util.LinkedList;
-import java.util.List;
+
 
 public class User {
-    
-    private Long id;
+    private int id;
     private String username;
     private String email;
-    public User(Long id,String username,String email){
+    public User(int id,String username,String email){
         this.id = id;
         this.username = username;
         this.email = email;
     }
-    public Long getId() {
+    public int getId() {
         return id;
     }
     
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
     public String getUsername() {
